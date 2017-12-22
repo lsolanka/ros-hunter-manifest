@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@github.com/" />
-  <default revision="hunterise" remote="origin" />
+    <remote name="origin" fetch="ssh://git@github.com/" />
+    <default revision="hunterise" remote="origin" />
 
-  <project path="lsolanka/actionlib.git" name="actionlib" />
+    <project name="lsolanka/tinyxml" path="tinyxml" />
+
+    <project name="lsolanka/catkin" path="catkin" />
+    <project name="lsolanka/cmake_modules" path="cmake_modules" />
+    <project name="lsolanka/roscpp_core" path="roscpp_core" />
+    <project name="lsolanka/message_generation" path="message_generation" />
+    <project name="lsolanka/message_runtime" path="message_runtime" />
+    <project name="lsolanka/genmsg" path="genmsg" />
+    <project name="lsolanka/genpy" path="genpy" />
+    <project name="lsolanka/genlisp" path="genlisp" />
+    <project name="lsolanka/gennodejs" path="gennodejs" />
+    <project name="lsolanka/geneus" path="geneus" />
+    <project name="lsolanka/gencpp" path="gencpp" />
+    <project name="lsolanka/std_msgs" path="std_msgs" />
+    <project name="lsolanka/common_msgs" path="common_msgs" />
+    <project name="lsolanka/ros" path="ros" />
+    <project name="lsolanka/rospack" path="rospack" />
+    <project name="lsolanka/ros_comm_msgs" path="ros_comm_msgs" />
+    <project name="lsolanka/ros_comm" path="ros_comm" />
+    <project name="lsolanka/actionlib" path="actionlib" />
+    <project name="lsolanka/geometry2" path="geometry2" />
+    <project name="lsolanka/angles" path="angles" />
 
 </manifest>
