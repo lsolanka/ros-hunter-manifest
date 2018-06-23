@@ -3,9 +3,12 @@
     <remote name="origin" fetch="ssh://git@github.com/" />
     <default revision="hunterise" remote="origin" />
 
+    <project name="lsolanka/actionlib" path="actionlib" />
+    <project name="lsolanka/angles" path="angles" />
     <project name="lsolanka/catkin" path="catkin" />
+    <project name="lsolanka/class_loader" path="class_loader" revision="melodic-devel" />
+    <project name="lsolanka/common_msgs" path="common_msgs" />
     <project name="lsolanka/console_bridge" path="console_bridge" />
-    <project name="lsolanka/roscpp_core" path="roscpp_core" />
     <project name="lsolanka/message_generation" path="message_generation" />
     <project name="lsolanka/message_runtime" path="message_runtime" />
     <project name="lsolanka/genmsg" path="genmsg" />
@@ -14,17 +17,15 @@
     <project name="lsolanka/gennodejs" path="gennodejs" />
     <project name="lsolanka/geneus" path="geneus" />
     <project name="lsolanka/gencpp" path="gencpp" />
-    <project name="lsolanka/std_msgs" path="std_msgs" />
-    <project name="lsolanka/common_msgs" path="common_msgs" />
+    <project name="lsolanka/geometry2" path="geometry2" />
+    <project name="lsolanka/pluginlib" path="pluginlib" />
     <project name="lsolanka/ros" path="ros" />
-    <project name="lsolanka/rosconsole" path="rosconsole" />
-    <project name="lsolanka/ros_environment" path="ros_environment" revision="hunter-1.2.0" />
+    <project name="lsolanka/rosconsole" path="rosconsole" revision="melodic-devel" />
+    <project name="lsolanka/roscpp_core" path="roscpp_core" />
     <project name="lsolanka/rospack" path="rospack" />
     <project name="lsolanka/ros_comm_msgs" path="ros_comm_msgs" />
     <project name="lsolanka/ros_comm" path="ros_comm" />
-    <project name="lsolanka/actionlib" path="actionlib" />
-    <project name="lsolanka/geometry2" path="geometry2" />
-    <project name="lsolanka/angles" path="angles" />
+    <project name="lsolanka/ros_environment" path="ros_environment" revision="hunter-1.2.0" />
+    <project name="lsolanka/std_msgs" path="std_msgs" />
     <project name="lsolanka/tinyxml" path="tinyxml" />
-
 </manifest>
