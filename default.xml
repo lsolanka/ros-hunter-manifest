@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin" fetch="ssh://git@github.com/" />
-    <default revision="hunterise" remote="origin" />
+    <default revision="melodic-devel" remote="origin" />
 
     <project name="lsolanka/actionlib" path="actionlib" />
     <project name="lsolanka/angles" path="angles" />
@@ -17,6 +17,7 @@
     <project name="lsolanka/gennodejs" path="gennodejs" />
     <project name="lsolanka/geneus" path="geneus" />
     <project name="lsolanka/gencpp" path="gencpp" />
+    <project name="lsolanka/geometry" path="geometry" revision="indigo-devel" />
     <project name="lsolanka/geometry2" path="geometry2" />
     <project name="lsolanka/pluginlib" path="pluginlib" />
     <project name="lsolanka/ros" path="ros" />
